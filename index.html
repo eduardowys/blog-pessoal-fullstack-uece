@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minhas Aventuras</title>
+    <title>ExploraViagem - Agência de Viagens</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,56 +16,58 @@
             <nav>
                 <ul class="nav-links">
                     <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#aventuras">Aventuras</a></li>
+                    <li><a href="#destinos">Destinos</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="sobre" class="section">
-        <div class="container">
+    <section id="sobre" class="section sobre-capa">
+        <div class="container sobre-texto">
             <h2>Sobre Mim</h2>
-            <p>Olá! Sou uma viajante apaixonada, desejo explorar o mundo e compartilhar minhas aventuras com vocês.</p>
+            <p>Olá! Sou um viajante apaixonada, desejo explorar o mundo e compartilhar minhas aventuras com vocês.</p>
         </div>
     </section>
-
-    <section id="aventuras" class="section">
+    
+    <section id="destinos" class="section destinos">
         <div class="container">
-            <div class="aventuras-grid">
-                <div class="aventura-item">
-                    <img src="img/av-01" alt="descrição da imagem 01">
+            <h2>Destinos visitados</h2>
+            <div class="destinos-grid">
+                <div class="destino-item">
+                    <img src="https://cdn.blablacar.com/wp-content/uploads/br/2024/04/05095413/mirante-da-janela-chapada-dos-veadeiros.webp" alt="Chapada dos Veadeiros">
                     <h3>Chapada dos Veadeiros</h3>
-                    <p>Aventuras e trilhas.</p>
+                    <p>Explore trilhas e cachoeiras em um dos destinos mais icônicos do Brasil.</p>
                 </div>
-                <div class="aventura-item">
-                    <img src="img/av-02" alt="descrição da imagem 02">
+                <div class="destino-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNzlU18vAa2G3wi6mnD6_CpTVAfeqbZG7_Ag&s" alt="Pyongyang">
                     <h3>Pyongyang</h3>
-                    <p>Um destino desconhecido, curioso.</p>
+                    <p>Descubra a cultura e os mistérios da Coreia do Norte com uma visita guiada.</p>
                 </div>
-                <div class="aventura-item">
-                    <img src="img/av-03" alt="descrição da imagem 03">
+                <div class="destino-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfPxAiebLyrLawaa214EavlQlWr4M4f19AHg&s" alt="Ouro Preto">
                     <h3>Ouro Preto</h3>
-                    <p>Monumentos históricos, atraentes, pão de queijo</p>
+                    <p>Vivencie a história colonial brasileira com um passeio por Ouro Preto.</p>
                 </div>
             </div>
         </div>
     </section>
-
-    <section id="contato" class="contato">
-        <h2>Contato</h2>
-        <p>Deseja entrar em contato? Por favor, preencha o formulário abaixo</p>
-        <form action="https://formsubmit.co/inserirSeuEmail@email.com" method="POST">
-            <input type="text" name="Nome" placeholder="Seu nome" required>
-            <input type="email" name="Email" placeholder="Seu email" required>
-            <textarea name="Mensagem" rows="4" placeholder="Sua mensagem"></textarea>
-            <button type="submit" class="btn">Enviar</button>
-        </form>
+    <section id="contato" class="section contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Tem dúvidas ou deseja mais informações? Preencha o formulário e nossa equipe entrará em contato.</p>
+            <form action="https://formsubmit.co/inserirSeuEmail@email.com" method="POST">
+                <input type="text" name="Nome" placeholder="Seu nome" required>
+                <input type="email" name="Email" placeholder="Seu email" required>
+                <textarea name="Mensagem" rows="4" placeholder="Sua mensagem"></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
     </section>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 FSN4/FSN6 - Minhas Aventuras. Todos os direitos reservados.</p>
+            <p>&copy; 2024 - ExploraViagem. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
