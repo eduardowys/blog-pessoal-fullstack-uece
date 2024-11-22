@@ -14,4 +14,6 @@ Bem-vindo ao projeto **Minhas Aventuras**! Este é um projeto Front-End, um blog
 - **Formulário de Contato**: Permite que os visitantes enviem mensagens diretamente através do site.
 - Abra o arquivo index.html no seu navegador para visualizar o projeto localmente.
 Site: https://eduardowys.github.io/blog-pessoal-fullstack-uece/
+
+
 ![Captura de tela 2024-11-21 204602](https://github.com/user-attachments/assets/19a6a113-1422-46b7-896a-cff117160cb2)
